@@ -12,13 +12,20 @@ Instruction
 -   3) write a client. In this example, its name is ```gmclient.py```
 -   4) start the work as for the worker ```$ sudo python gmwork.py ```
 -   5) start the client ```$ sudo python gmclient.py```
-### See what we got
-* Then you will see something like this, everytime you do the client:
-> root@raspberrypi /home/pi/sanbox/gearmanLab # python gmclient.py 
-> foo is done by a gearman cute worker  
-* From the work(er) daemon we will see this:
-> root@raspberrypi /home/pi/sanbox/gearmanLab # python gmwork.py
-> Job started
-> foo is done by a gearman cute worker 
 
-* So now gearman works well with python. Happy hacking!
+### See what we got
+#### Then you will see something like this, everytime you do the client:
+
+- ```root@raspberrypi /home/pi/sanbox/gearmanLab # python gmclient.py ```
+-
+- foo is done by a gearman cute worker  
+
+*****
+* From the work(er) daemon we will see this:
+
+- ```root@raspberrypi /home/pi/sanbox/gearmanLab # python gmwork.py```
+- Job started
+-
+- foo is done by a gearman cute worker 
+*****
+ So now gearman works well with python. Happy hacking!
