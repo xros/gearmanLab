@@ -16,16 +16,16 @@ Instruction
 ### See what we got
 #### Then you will see something like this, everytime you do the client:
 
-- ```root@raspberrypi /home/pi/sanbox/gearmanLab # python gmclient.py ```
--
-- foo is done by a gearman cute worker  
+```root@raspberrypi /home/pi/sanbox/gearmanLab # python gmclient.py ```
+
+ foo is done by a gearman cute worker  
 
 *****
 * From the work(er) daemon we will see this:
 
-- ```root@raspberrypi /home/pi/sanbox/gearmanLab # python gmwork.py```
-- Job started
--
-- foo is done by a gearman cute worker 
+```root@raspberrypi /home/pi/sanbox/gearmanLab # python gmwork.py```
+ Job started
+
+ foo is done by a gearman cute worker 
 *****
  So now gearman works well with python. Happy hacking!
