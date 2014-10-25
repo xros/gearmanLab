@@ -12,7 +12,7 @@ def task_callback(gearman_worker, gearman_job):
 
 
 # An worker instance to listen
-my_worker = MyGearmanWorker(['localhost:9000'])
+my_worker = MyGearmanWorker(['127.0.0.1:4730'])
 # register a task: its name is echo, and its function is task_callback
 my_worker.register_task('echo', task_callback)
 my_worker.work()

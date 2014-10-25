@@ -7,7 +7,7 @@ Instruction
 * From the link above it will show you how to use command lines to pass jobs from client via server to worker. Even though it's in PHP I think it's very neat and handy.
 
 ### After installation. Please follow the steps below:
--   1) start the gearmand daemon: ```$ sudo gearmand -p9000``` -p means port
+-   1) start the gearmand daemon: ```$ sudo gearmand -p4730``` -p means port
 -   2) write a worker. In this example, its name is ```gmwork.py```
 -   3) write a client. In this example, its name is ```gmclient.py```
 -   4) start the work as for the worker ```$ sudo python gmwork.py ```
